@@ -8,6 +8,27 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+.description {
+  padding: 1rem; 
+  background: $light-grey;
+}
+
+.image-wrapper {
+  background: $light-grey;
+  padding: 1rem;
+}
+
+.modal-title {
+  font-weight: bold;
+}
+
+.block {
+  margin-top: 1rem;
+}
+
+.card {
+  margin-bottom: 2rem;
+}
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);

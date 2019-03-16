@@ -16,3 +16,6 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('/{any}', 'ApiController@get')->where('any', '.*');
+Route::post('/{any}', 'ApiController@post')->where('any', '.*');
